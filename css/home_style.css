@@ -1,0 +1,23 @@
+/* Basic Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+
+body { background-color: #f4f7f6; }
+
+#main-header { background-color: #333; color: white; padding: 15px 0; }
+
+nav { display: flex; justify-content: space-around; align-items: center; }
+
+.logo { font-size: 24px; font-weight: bold; }
+.logo span { color: #ff4d4d; } /* Span styling */
+
+nav ul { list-style: none; display: flex; }
+nav ul li { margin: 0 15px; }
+nav ul li a { color: white; text-decoration: none; font-size: 18px; }
+nav ul li a.active { color: #ff4d4d; border-bottom: 2px solid #ff4d4d; }
+
+.container { text-align: center; margin-top: 100px; }
+#hero h1 { font-size: 50px; color: #2c3e50; }
+.highlight { color: #3498db; }
+
+#hero p { font-size: 20px; color: #666; margin: 20px 0; }
+.btn-primary { background-color: #2ecc71; color: white; padding: 10px 25px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; }
